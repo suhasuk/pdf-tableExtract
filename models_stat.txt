@@ -1,0 +1,10 @@
+100 epochs completed in 3.475 hours.
+Optimizer stripped from runs/train/yolos_TBL105_E100/weights/last.pt, 14.4MB
+Optimizer stripped from runs/train/yolos_TBL105_E100/weights/best.pt, 14.4MB
+
+Validating runs/train/yolos_TBL105_E100/weights/best.pt...
+Fusing layers... 
+YOLOv5s summary: 157 layers, 7012822 parameters, 0 gradients, 15.8 GFLOPs
+                 Class     Images  Instances          P          R      mAP50   mAP50-95: 100%|██████████| 1/1 [00:06<00:00,  6.30s/it]
+                   all         10         40       0.93      0.999      0.972      0.841
+Results saved to runs/train/yolos_TBL105_E100
