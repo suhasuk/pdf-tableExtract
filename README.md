@@ -27,7 +27,7 @@ $ conda create -n <env name> python==3.10.8
 
 $ conda activate <env_name>
 
-$ pip3 install -r requirements.txt
+$ pip install -r requirements.txt
 
 $ conda install -c conda-forge poppler
 
