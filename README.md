@@ -37,6 +37,15 @@ $ conda install -c conda-forge poppler
 
 ```
 python api.py
+
+For curl command use:
+
+curl -X POST -F file=@<"file_path"> http://127.0.0.1:8500/predict
+
+For command line:
+
+python main.py --file_path <"File path">
+
 ```
 
 ## Limitations
